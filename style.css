@@ -100,13 +100,13 @@ a {
   text-decoration: line, underline;
   color: #382ae1;
 }
-.Pay {
+.pay {
   margin-top: 30px;
   width: 354px;
   height: 50px;
   border-radius: 20px;
   background: #382ae1;
-  border: none;
+ border: none;
   color: white;
   font-weight: 900;
   font-size: 15px;
@@ -121,13 +121,16 @@ a {
   line-height: normal;
   margin-top: 50px;
   margin-left: 170px;
-
   color: #717fa6;
-  
   font-family: Red Hat display, sans-serif;
 
 }
 
+
+.pay:hover{
+  cursor: pointer;
+  background: #766cf1;
+}
 
 a:hover {
   color: #766cf1;
